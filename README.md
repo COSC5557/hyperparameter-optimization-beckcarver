@@ -18,6 +18,9 @@ excluding appendices. It should have the following structure:
 - Results: Description of what you observed, including plots.
 - Code: Add the code you've used as a separate file.
 
+Your report must contain enough detail to reproduce what you did without the
+code. If in doubt, include more detail.
+
 There is no required format for the report. You could, for example, use an
 iPython notebook.
 
