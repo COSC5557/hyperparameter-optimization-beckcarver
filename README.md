@@ -15,7 +15,8 @@ excluding appendices. It should have the following structure:
 - Introduction: What problem are you solving, how are you going to solve it.
 - Dataset Description: Describe the data you're using, e.g. how many features and observations, what are you predicting, any missing values, etc.
 - Experimental Setup: What specifically are you doing to solve the problem, i.e.\ what programming languages and libraries, how are you processing the data, what machine learning algorithms are you considering and what hyperparameters and value ranges, what measures you are using to evaluate them, what hyperparameter optimization method you chose, etc.
-- Results: Description of what you observed, including plots.
+- Results: Description of what you observed, including plots. Compare
+  performance before and after tuning, and show the best configuration.
 - Code: Add the code you've used as a separate file.
 
 Your report must contain enough detail to reproduce what you did without the
