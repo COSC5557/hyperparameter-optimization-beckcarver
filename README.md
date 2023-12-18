@@ -24,7 +24,7 @@ code. If in doubt, include more detail.
 There is no required format for the report. You could, for example, use an
 iPython notebook.
 
-## Data
+## Data and Setup
 
 We will have a look at the [Wine Quality
 dataset](https://archive-beta.ics.uci.edu/dataset/186/wine+quality). Choose the
@@ -36,8 +36,9 @@ hyperparameters, along with value ranges, for each. You can use implementations
 of AutoML systems (e.g. auto-sklearn), scientific papers, or the documentation
 of the library you are using to determine the hyperparameters to tune and the
 value ranges. Note that there is not only a single way to do this, but define a
-reasonable space (e.g. don't include whether to turn on debug output or random
-forests with 1,000,000 trees).
+reasonable space (e.g. don't include whether to turn on debug output, or random
+forests with 1,000,000 trees, or tune the loss function). Your hyperparameter
+search space should be so large that you cannot simply run a grid search.
 
 Determine the best machine learning algorithm and hyperparameter setting for
 your dataset. Make sure to optimize both the type of machine learning algorithm
